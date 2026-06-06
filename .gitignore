@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Large Model Files (prevent GitHub reject)
+*.joblib
+*.pkl
+*.h5
+*.model
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Project specific
+pcos_stacked_model.joblib
+shap_explainer.joblib
+pcos_nonlinear_stack_calibrated.joblib

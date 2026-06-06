@@ -1,0 +1,16 @@
+catboost_info/
+venv/
+env/
+__pycache__/
+*.ipynb
+flaskapp.py
+doctor_service.py
+debug_verify_model_load.py
+reset_db.py
+pcos_db.db
+pcos_nonlinear_stack.joblib
+pcos_nonlinear_stack_calibrated.joblib
+pcos_stacked_model.joblib
+pcos_voting_ensemble.joblib
+shap_explainer.joblib
+.git/
